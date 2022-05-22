@@ -1,11 +1,15 @@
+import Header from "./Components/Header";
+import Gif from "./Components/Gif";
+import Footer from "./Components/Footer";
 import "./App.css";
+import "./Components/ContainerMain.css";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>T R I C S app</p>
-      </header>
+    <div className='container-main'>
+      <Header />
+      <Gif />
+      <Footer />
     </div>
   );
 }
