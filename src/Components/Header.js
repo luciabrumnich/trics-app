@@ -1,10 +1,11 @@
 import React from "react";
-import "./ContainerMain.css";
 
 function Header() {
   return (
     <div>
-      <h2><strong>TRICS</strong><span>app</span></h2>
+      <h2 className="font-mono text-pink-50 text-center my-5 text-2xl sm:text-4xl">
+        <strong>roma + imprenta minúscula</strong>
+      </h2>
     </div>
   );
 }
