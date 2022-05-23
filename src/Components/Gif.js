@@ -3,8 +3,8 @@ import React from "react";
 function Gif() {
   return (
     <img
-      className="w-auto my-10 sm:my-20"
-      src="https://media.giphy.com/media/26gsurMJE95uO07jG/giphy.gif"
+      className="my-10 w-6/12 sm:my-20 sm:w-auto"
+      src="https://media.giphy.com/media/TMiGNKPi1NgEKRqyi9/giphy.gif"
       alt="gif-plant"
     />
   );
